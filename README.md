@@ -13,9 +13,10 @@
 ## How to Generate Final Report
 To generate the final report,
 1. open the project in RStudio
-2. navigate to the terminal
-3. enter a "make clean" command to ensure all output files are deleted,
-4. run the "make" command
+2. make sure all needed packages are installed
+3. navigate to the terminal
+4. enter a "make clean" command to ensure all output files are deleted,
+5. run the "make" command
 
 The final report will be viewable as `IBH-PC.html`
 
