@@ -17,23 +17,27 @@ To generate the final report,
 3. enter a "make clean" command to ensure all output files are deleted,
 4. run the "make" command
 
-The final report will be viewable as 'IBH-PC.html'
+The final report will be viewable as `IBH-PC.html`
 
 ## Report Contents Description
 The outputs of the report include two .rds files and two .png files.
 
 .rds: one for the clean data and one for table one
+
 .png: an image of the histogram generated and an image of the stacked bar plot
 
 
 ## Location of Code for Table
-The code for table one is located in the 'code' folder and labeled '01_make_table1.R'
-To navigate: 'code/01_make_table1.R'
+The code for table one is located in the 'code' folder and labeled `01_make_table1.R`
+
+To navigate: `code/01_make_table1.R`
 
 ## Location of Code for Figures
-The code for the histogram of age is located in the 'code' folder and labeled '02_make_hist.R'
-To navigate: 'code/02_make_hist.R'
+The code for the histogram of age is located in the 'code' folder and labeled `02_make_hist.R`
 
-The code for the stacked bar plot of depression over time by group is located in the 'code' folder and labeled '03_make_bar.R'
-To navigate: 'code/03_make_bar.R'
+To navigate: `code/02_make_hist.R`
+
+The code for the stacked bar plot of depression over time by group is located in the 'code' folder and labeled `03_make_bar.R`
+
+To navigate: `code/03_make_bar.R`
 
