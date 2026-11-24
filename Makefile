@@ -22,3 +22,7 @@ descriptive_analysis: outputs/table_one.rds outputs/histogram.png outputs/stacke
 .PHONY: clean
 clean:
 	rm -f outputs/*.rds outputs/*.png IBH-PC.html
+	
+.PHONY: install
+install:
+	Rscript -e "renv::restore(prompt = FALSE)"
