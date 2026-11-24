@@ -21,7 +21,7 @@ descriptive_analysis: outputs/table_one.rds outputs/histogram.png outputs/stacke
 
 .PHONY: clean
 clean:
-	rm -f outputs/*.rds outputs/*.png IBH-PC.html
+	rm -f outputs/*.rds outputs/*.png IBH-PC.html README.html
 	
 .PHONY: install
 install:
